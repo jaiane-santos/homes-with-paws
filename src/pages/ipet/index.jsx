@@ -2,6 +2,9 @@ import React, { Fragment } from 'react'
 import { Container, Description, Left, Profile, ProfileContact, ProfileDescriptin, ProfileFormContact, ProfileImg, Right, Thumb } from './styles'
 import TopBanner from '../../components/TopBanner'
 import topbanner from '../../assets/topbanner.jpg'
+import Input from '../../components/Input'
+import Button from '../../components/Button'
+import TextArea from '../../components/TextArea'
 
 function ipet() {
   return (
@@ -40,10 +43,12 @@ function ipet() {
           <ProfileFormContact>
             <h3>Contate nossa ong</h3>
             <form>
-              <input name="name" required placeholder="Nome" />
-              <input type="email" name="" required id="" placeholder="email" />
-              <textarea name="" id="" required placeholder="Digite sua mensagem..."></textarea>
-              <button type="submit">Enviar Mensagem</button>
+              <Input type="text" placeholder="Nome" />
+              <Input type="email" placeholder="Email" />
+              <TextArea placeholder="Digite sua mensagem..." />
+              <Button type="submit">
+                Enviar Mensagem
+              </Button>
             </form>
           </ProfileFormContact>
         </Right>

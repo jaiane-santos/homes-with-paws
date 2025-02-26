@@ -99,35 +99,5 @@ export const ProfileFormContact = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  input, textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    border: 2px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-    transition: border-color 0.3s;
-    resize: none;
-  }
-
-  input:focus, textarea:focus {
-    border-color: #4CAF50;
-    outline: none;
-  }
-
-  button {
-    padding: 12px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  button:hover {
-    background-color: #45a049;
-  }
-
+  
 `;
