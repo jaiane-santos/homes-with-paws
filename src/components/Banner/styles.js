@@ -4,7 +4,7 @@ import banner from "../../assets/banner.jpg"
 export const Container = styled.div`
   position: relative;
   width: 100%;
-  height: 70vh; /* Ajuste a altura conforme necessário */
+  height: 70vh; 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
