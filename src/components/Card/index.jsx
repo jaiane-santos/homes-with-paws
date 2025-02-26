@@ -7,6 +7,7 @@ import {
   Itens
 } from "./styles";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Card = () => {
@@ -24,7 +25,7 @@ const Card = () => {
           <span>castrado ou não</span>
           <span>femea ou macho</span> */}
         </Itens>
-        <a href="#">Detalhes <FaArrowRight /></a>
+        <Link to="/detalhes">Detalhes <FaArrowRight /></Link>
       </Description>
     </Container>
   )

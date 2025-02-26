@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, ContainerForm, Form, Label } from './styles'
 import Input from "../../components/Input"
 import Button from "../../components/Button"
+import { Link } from 'react-router-dom'
 
 function Cadastro() {
   return (
@@ -17,6 +18,7 @@ function Cadastro() {
             <Label>password</Label>
             <Input type="password" placeholder="Crie sua senha"/>
             <Button  type="submit">Cadastrar</Button>
+            <p>Já possui Conta? Faça <Link to="/login"><span>Login</span></Link></p>
         </Form>
      </ContainerForm>
    </Container>

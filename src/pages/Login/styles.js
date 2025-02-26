@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-  padding: 100px 150px;
+  padding: 40px 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,15 @@ export const Form = styled.form`
     margin-top:15px;
     padding: 14px 20px;
     font-size: 1.2rem;
+  }
+
+  p {
+    margin-top: 15px;
+    margin-left: 30px
+  }
+
+  span {
+    color: var(--green)
   }
 `
 
